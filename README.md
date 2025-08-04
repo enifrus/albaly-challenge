@@ -20,16 +20,21 @@ A modern, responsive dashboard for business insights built with **Next.js**, **T
 ```bash
 git clone https://github.com/your-username/albary-dashboard.git
 cd albary-dashboard
+```
 
 ### 2. Install dependencies
+```bash
 npm install
 # or
 yarn
+```
 
 ### 3. Run the development server
+```bash
 npm run dev
 # or
 yarn dev
+```
 
 Visit http://localhost:3000 to view the app.
 
