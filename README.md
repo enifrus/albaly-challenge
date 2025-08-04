@@ -40,14 +40,12 @@ Visit http://localhost:3000 to view the app.
 
 ## 📦 Tech Stack
 
-- **Next.js 14**
-- **React 18**
-- **Tailwind CSS 3**
+- **Next.js 15**
+- **Tailwind CSS**
 - **TypeScript**
 - **Lucide Icons**
 - **Framer Motion**
 - **Recharts** (for charts)
-- **Next Fonts (Google Fonts)**
 
 ---
 
