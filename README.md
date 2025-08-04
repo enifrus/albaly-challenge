@@ -57,3 +57,7 @@ Visit http://localhost:3000 to view the app.
 - Font setup uses `next/font/google` with `Geist Mono`.
 
 ---
+
+## 🎥 Demo / Walkthrough
+
+https://drive.google.com/file/d/1s6YZ4-1p9PzRV2U8qO7WljZf6XeiXBhy/view?usp=sharing
