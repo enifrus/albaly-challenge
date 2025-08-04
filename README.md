@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Albaly Challenge Dashboard
 
-## Getting Started
+A modern, responsive dashboard for business insights built with **Next.js**, **Tailwind CSS**, and **TypeScript**. The dashboard provides real-time metrics, trends, and activity data to help businesses stay on top of their performance.
 
-First, run the development server:
+## 🚀 Project Features
+
+- 🧾 Summary cards for Total Sales, Active Customers, Inventory Status
+- 📉 Monthly performance chart (Jan–Jul) with revenue trends
+- 🌎 Regional sales performance with animated progress bars
+- 🔄 Real-time customer activity feed (filtered by today)
+- 💡 Smooth skeleton + animated loading states
+- ✅ Fully responsive layout with sidebar and navbar
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repo
 
 ```bash
+git clone https://github.com/your-username/albary-dashboard.git
+cd albary-dashboard
+
+### 2. Install dependencies
+npm install
+# or
+yarn
+
+### 3. Run the development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 14**
+- **React 18**
+- **Tailwind CSS 3**
+- **TypeScript**
+- **Lucide Icons**
+- **Framer Motion**
+- **Recharts** (for charts)
+- **Next Fonts (Google Fonts)**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Assumptions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Data is currently mocked and fetched via `/api` routes for demo purposes.
+- `recentActivity` only shows events that occurred **today**.
+- Monthly revenue is hardcoded for **January–July**, with percent change calculated against previous month.
+- Font setup uses `next/font/google` with `Geist Mono`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
